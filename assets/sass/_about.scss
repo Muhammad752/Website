@@ -1,0 +1,57 @@
+.about {
+  padding: 80px 0;
+  .card {
+    &:nth-child(2) {
+      .card__header,
+      .card__text {
+        color: white;
+      }
+      .card__underline {
+        background: #aec5ce;
+      }
+    }
+    &__underline {
+      display: block;
+      width: 116px;
+      height: 6px;
+      background: #7f2941;
+      margin-top: 10px;
+    }
+    &__header {
+      font-family: "Roboto Serif";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 96px;
+      line-height: 112px;
+      letter-spacing: -0.01em;
+      color: #7f2941;
+    }
+    &__text {
+      font-family: "Roboto Serif";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 28px;
+      letter-spacing: -0.03em;
+      text-transform: uppercase;
+      color: #7f2941;
+    }
+    &-img-overlay {
+      left: 60px;
+      top: 20px;
+    }
+  }
+}
+@media (max-width:1200px){
+  .about .card__header{
+    font-size: 50px;
+    line-height: 54px;
+  }
+}
+@media (max-width:880px){
+  .about__container{
+    flex-direction: column;
+    gap: 60px;
+    max-width: 90%;
+  }
+}

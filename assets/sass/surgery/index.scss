@@ -1,0 +1,46 @@
+.surgery {
+  &__top {
+    text-align: center;
+    background-image: url(../../imgs/surgery_back.png);
+    background-color: rgba(136, 136, 136, 0.361);
+    padding: 30px 0;
+    .top {
+      padding: 10px 0;
+      font-family: "Dubai";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #7f2941;
+    }
+  }
+  &__underline {
+    display: block;
+    width: 116px;
+    height: 6px;
+    margin: auto;
+    background: #aec5ce;
+  }
+  &__header {
+    h2 {
+      font-family: "Cormorant";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 50px;
+      text-align: center;
+      letter-spacing: -0.01em;
+      text-transform: uppercase;
+      color: #7f2941;
+      padding-bottom: 15px;
+    }
+  }
+}
+.top {
+  &__back {
+    background: unset;
+    height: unset;
+  }
+}

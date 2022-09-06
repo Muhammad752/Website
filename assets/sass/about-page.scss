@@ -1,0 +1,21 @@
+@import "default";
+@import "header";
+.top {
+  height: unset;
+  background: unset;
+  &__back {
+    background: url(../imgs/about__main.png);
+    height: 420px;
+    background-position: center;
+  }
+  header {
+    padding: 0 2%;
+    background: #7f2941;
+    .bg-menu {
+      color: white;
+    }
+  }
+}
+@import "footer";
+@import "aBariatric";
+@import "certificates";

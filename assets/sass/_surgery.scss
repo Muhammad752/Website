@@ -1,0 +1,74 @@
+.surgery {
+  background-color: #aec5ce;
+  padding-bottom: 60px;
+  &__header {
+    font-family: "Cormorant";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #7f2941;
+    padding: 60px 0 15px;
+  }
+  .card {
+    border: none;
+    border-radius: 30px;
+    &-img-overlay {
+      top: auto;
+      bottom: 40px;
+      left: 20px;
+      right: 20px;
+      background: #7f2941;
+      padding: 20px 32px;
+      h3 {
+        font-family: "Roboto Serif";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 44px;
+        color: #aec5ce;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &__underline {
+    display: block;
+    margin: auto;
+    width: 116px;
+    height: 6px;
+    background: #7f2941;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .surgery .card-img-overlay h3 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .surgery__container {
+    flex-direction: column;
+    gap: 40px;
+    .card {
+      max-width: 70%;
+      margin: auto;
+    }
+  }
+  .surgery__header {
+    font-size: 20px;
+    line-height: 22px;
+  }
+}
